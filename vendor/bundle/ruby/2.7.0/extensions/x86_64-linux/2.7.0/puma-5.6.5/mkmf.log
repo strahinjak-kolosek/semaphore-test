@@ -253,7 +253,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/home/ubuntu/.rvm/rubies/ruby-2.7.6/include/ruby-2.7.0/x86_64-linux -I/home/ubuntu/.rvm/rubies/ruby-2.7.6/include/ruby-2.7.0/ruby/backward -I/home/ubuntu/.rvm/rubies/ruby-2.7.6/include/ruby-2.7.0 -I.     -g -O2 -fPIC  conftest.c  -L. -L/home/ubuntu/.rvm/rubies/ruby-2.7.6/lib -Wl,-rpath,/home/ubuntu/.rvm/rubies/ruby-2.7.6/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -lssl -lcrypto -Wl,-rpath,'/../lib' -Wl,-rpath,'/../lib' -lruby  -lssl -lcrypto -lm   -lc"
-/usr/bin/ld: /tmp/ccnTPJ0n.o: in function `t':
+/usr/bin/ld: /tmp/ccYY8kN0.o: in function `t':
 /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/puma-5.6.5/ext/puma_http11/conftest.c:17: undefined reference to `SSL_get1_peer_certificate'
 collect2: error: ld returned 1 exit status
 checked program was:

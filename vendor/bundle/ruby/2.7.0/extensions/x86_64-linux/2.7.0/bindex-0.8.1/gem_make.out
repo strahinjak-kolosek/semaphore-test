@@ -1,5 +1,5 @@
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
-/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-246482-xinnlr.rb extconf.rb
+/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-247171-5xe68c.rb extconf.rb
 creating Makefile
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
@@ -12,4 +12,4 @@ linking shared-object skiptrace/internal/cruby.so
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
 make "DESTDIR=" install
-/usr/bin/install -m 0755 cruby.so ./.gem.20221122-246482-1a525lj/skiptrace/internal
+/usr/bin/install -m 0755 cruby.so ./.gem.20221122-247171-1y10dww/skiptrace/internal

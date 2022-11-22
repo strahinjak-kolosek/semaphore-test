@@ -1,5 +1,5 @@
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
-/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-246482-1nxgpm3.rb extconf.rb
+/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-247012-jayozt.rb extconf.rb
 checking for rb_block_call()... yes
 checking for rb_ary_subseq()... yes
 creating Makefile
@@ -14,4 +14,4 @@ linking shared-object racc/cparse.so
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
 make "DESTDIR=" install
-/usr/bin/install -m 0755 cparse.so ./.gem.20221122-246482-17v58fa/racc
+/usr/bin/install -m 0755 cparse.so ./.gem.20221122-247012-di142v/racc

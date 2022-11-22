@@ -1,5 +1,5 @@
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
-/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-246482-1rie7jj.rb extconf.rb
+/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-247171-vdwjab.rb extconf.rb
 creating Makefile
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
@@ -13,4 +13,4 @@ linking shared-object debug/debug.so
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
 make "DESTDIR=" install
-/usr/bin/install -m 0755 debug.so ./.gem.20221122-246482-1hqq4m3/debug
+/usr/bin/install -m 0755 debug.so ./.gem.20221122-247171-1ugq26w/debug

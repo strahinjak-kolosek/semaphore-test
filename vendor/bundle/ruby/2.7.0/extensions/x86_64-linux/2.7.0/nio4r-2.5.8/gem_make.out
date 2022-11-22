@@ -1,5 +1,5 @@
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-246482-c7gt7x.rb extconf.rb
+/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-247012-crjlwq.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... yes
 checking for linux/io_uring.h... yes
@@ -58,4 +58,4 @@ linking shared-object nio4r_ext.so
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20221122-246482-19p4koi
+/usr/bin/install -m 0755 nio4r_ext.so ./.gem.20221122-247012-w429mm

@@ -125,7 +125,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/home/ubuntu/.rvm/rubies/ruby-2.7.6/include/ruby-2.7.0/x86_64-linux -I/home/ubuntu/.rvm/rubies/ruby-2.7.6/include/ruby-2.7.0/ruby/backward -I/home/ubuntu/.rvm/rubies/ruby-2.7.6/include/ruby-2.7.0 -I.    -g -O2 -fPIC conftest.c  -L. -L/home/ubuntu/.rvm/rubies/ruby-2.7.6/lib -Wl,-rpath,/home/ubuntu/.rvm/rubies/ruby-2.7.6/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,'/../lib' -Wl,-rpath,'/../lib' -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/cc58Q17E.o: in function `t':
+/usr/bin/ld: /tmp/ccOCJpia.o: in function `t':
 /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console/conftest.c:15: undefined reference to `rb_scheduler_timeout'
 collect2: error: ld returned 1 exit status
 checked program was:

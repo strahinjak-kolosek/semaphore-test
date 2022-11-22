@@ -1,5 +1,5 @@
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console
-/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-246482-l51o3u.rb extconf.rb
+/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-247171-uv5bbb.rb extconf.rb
 checking for termios.h... yes
 checking for cfmakeraw() in termios.h... yes
 checking for sys/ioctl.h... yes
@@ -17,4 +17,4 @@ linking shared-object io/console.so
 
 current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/io-console-0.5.11/ext/io/console
 make "DESTDIR=" install
-/usr/bin/install -m 0755 console.so ./.gem.20221122-246482-1r5oimx/io
+/usr/bin/install -m 0755 console.so ./.gem.20221122-247171-1c2fjoy/io
