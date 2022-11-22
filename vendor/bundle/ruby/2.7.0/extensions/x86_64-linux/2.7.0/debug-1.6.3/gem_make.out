@@ -1,0 +1,16 @@
+current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+/home/ubuntu/.rvm/rubies/ruby-2.7.6/bin/ruby -I /home/ubuntu/.rvm/rubies/ruby-2.7.6/lib/ruby/2.7.0 -r ./siteconf20221122-246482-1rie7jj.rb extconf.rb
+creating Makefile
+
+current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/ubuntu/projects/kolosek/basic-app/vendor/bundle/ruby/2.7.0/gems/debug-1.6.3/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug.so ./.gem.20221122-246482-1hqq4m3/debug
