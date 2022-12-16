@@ -1,0 +1,22 @@
+-  hosts: all
+   tasks:
+     - name: "instalacija asdf"
+       shell: "if test -d /home/httpd/.ansible; then echo 'vec instalirano'; else git clone https://github.com/asdf-vm/asdf.git /home/httpd/.asdf --branch v0.11.0 ; fi"
+       args:
+         executable: /bin/bash
+
+     - name: "Instalacija ruby plugin-a za asdf"
+       shell: "source /home/httpd/.asdf/asdf.sh && asdf plugin-add ruby"
+       args:
+         executable: /bin/bash
+       ignore_errors: true
+
+     - name: "Instalacija ruby 3.0.0 za asdf"
+       shell: "source /home/httpd/.asdf/asdf.sh && asdf install ruby 3.0.0"
+       args:
+         executable: /bin/bash
+
+     - name: "Podesavanje default ruby verzije na 3.0.0"
+       shell: "source /home/httpd/.asdf/asdf.sh && asdf global ruby 3.0.0"
+       args:
+         executable: /bin/bash
